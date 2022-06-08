@@ -1,0 +1,9 @@
+node_modules/
+yarn.lock
+yarn-error.log
+package-lock.json
+credentials.json
+token.json
+uploads
+client/node_modules
+my-app/node_modules

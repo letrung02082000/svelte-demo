@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    margin: 1rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--primary);
+
+}
+
+.infoContainer {
+    width: 30%;
+}
+
+.orderContainer {
+    width: 70%;
+}

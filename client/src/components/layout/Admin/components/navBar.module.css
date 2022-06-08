@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.showButton {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  margin: 1rem;
+}
+
+.hideButton {
+  margin: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    position: relative;
+  }
+}

@@ -1,0 +1,104 @@
+.orderForm {
+  margin: 1rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 2;
+  overflow: scroll;
+}
+
+.uploadArea {
+  flex-grow: 1;
+  margin: 1rem;
+}
+
+.button {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+
+.infoContainer {
+  width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formLabel {
+  margin: 2rem 0;
+}
+
+.formInput {
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.formUploadButton {
+  margin: 1rem auto 3rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.formUploadButton img {
+  max-width: 5rem;
+  margin: 0 1rem;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.selectContainer p {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.formFilename {
+  margin: 1rem 0 0;
+}
+
+.formFeedbackInput {
+  height: 5rem;
+  padding: 0.5rem;
+}
+
+.formSubmitButton {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.orderContainer {
+  width: 95%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.orderContainer p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore client"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "file-type": "^17.1.1",
+    "google-auth-library": "^7.12.0",
+    "googleapis": "^95.0.0",
+    "helmet": "^4.6.0",
+    "imgur": "^2.0.0-next.6",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.3",
+    "order-id": "^2.1.2",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "rotating-file-stream": "^2.1.5",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^17.0.17",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+}
+
+.categoryContainer {
+    width: fit-content;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: white;
+    position: fixed;
+}
+
+.categoryContainer .button {
+    padding: 0.2rem 1rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.categorySelected {
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  padding: 1rem;
+}
+
+.navBar {
+  max-width: 15rem;
+}

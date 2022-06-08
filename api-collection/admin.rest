@@ -1,0 +1,10 @@
+###Driving Admin Login
+
+POST http://localhost:5000/api/admin/driving-login HTTP/1.1
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2NkZjEwODQ0MTRlYjJmMzc0NzU2ZCIsImVtYWlsIjoibGV0cnVuZzAyMDgyMDAwQGdtYWlsLmNvbSIsImlhdCI6MTY0NjQ3NjY1MywiZXhwIjoxNjQ2NDg1NjUzfQ.Yo877r_fGrYBF8ne5jQs9x-GzN72-0yTm3M6n7sKtDA 
+
+{
+    "email": "letrung02082000@gmail.com",
+    "password": "trung123"
+}

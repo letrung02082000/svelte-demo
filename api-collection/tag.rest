@@ -1,0 +1,37 @@
+### Add tag
+
+POST http://localhost:5000/api/admin/tag HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Sticker, logo",
+    "description": "Sticker, logo",
+    "isVisible": true,
+    "category": "624c1945d3285d135269e6b3",
+    "parent": "624c24f9c861911f49a4b1cf"
+}
+
+### Update tag
+
+PATCH http://localhost:5000/api/admin/tag HTTP/1.1
+Content-Type: application/json
+
+{
+
+}
+
+### Get all tags
+
+GET http://localhost:5000/api/admin/tag HTTP/1.1
+Content-Type: application/json
+
+### Get category by id
+
+GET http://localhost:5000/api/admin/tag/624c26d9c861911f49a4b1db HTTP/1.1
+Content-Type: application/json
+
+
+### Delete category
+
+DELETE http://localhost:5000/api/admin/tag HTTP/1.1
+Content-Type: application/json

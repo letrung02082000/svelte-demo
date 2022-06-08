@@ -1,0 +1,38 @@
+### Register User
+
+POST http://localhost:5000/api/user/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "letrung02082000@gmail.com",
+    "password": "trung123"
+}
+
+### Login User
+
+POST http://localhost:5000/api/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "letrung020820002@gmail.com",
+    "password": "trung1235"
+} 
+
+
+### Get User
+
+GET http://localhost:5000/api/user HTTP/1.1
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWY4MDc3NzJkMDcxMzU4ZWMyYmIyYyIsImlhdCI6MTY1NDYyMjcxNywiZXhwIjoxNjU0NzA5MTE3fQ.H1S7Q8N0ibwAumm9mf7Nregkl1TxA6fH6-f53qaP4TY
+
+
+### Change Password
+
+PATCH http://localhost:5000/api/user/password HTTP/1.1
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWY4MDc3NzJkMDcxMzU4ZWMyYmIyYyIsImlhdCI6MTY1NDYyMjcxNywiZXhwIjoxNjU0NzA5MTE3fQ.H1S7Q8N0ibwAumm9mf7Nregkl1TxA6fH6-f53qaP4TY
+
+{
+    "password":"trung123",
+    "newPassword":"trung123"
+}
